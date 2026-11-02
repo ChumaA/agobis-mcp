@@ -1,0 +1,9 @@
+{
+  "name": "agobis",
+  "description": "Ask about your Agobis fleet from Cursor: vehicles, live locations, drivers, rides, trips and maintenance due. Read-only; sign in with your Agobis account.",
+  "version": "1.0.0",
+  "author": { "name": "Agobis", "email": "support@agobis.com" },
+  "homepage": "https://www.agobis.com",
+  "keywords": ["fleet", "fleet-management", "logistics", "rides", "mcp"],
+  "logo": "assets/logo.png"
+}
