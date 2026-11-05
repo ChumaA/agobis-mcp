@@ -1,9 +1,14 @@
 {
   "name": "agobis",
   "description": "Ask about your Agobis fleet from Cursor: vehicles, last known locations, drivers, trips and maintenance due. Read-only; sign in with your Agobis account.",
-  "version": "1.0.0",
-  "author": { "name": "Agobis", "email": "support@agobis.com" },
+  "version": "1.0.1",
+  "author": {
+    "name": "Agobis LLC",
+    "email": "support@agobis.com"
+  },
   "homepage": "https://www.agobis.com",
+  "repository": "https://github.com/ChumaA/agobis-mcp",
+  "license": "MIT",
   "keywords": ["fleet", "fleet-management", "logistics", "trips", "mcp"],
   "logo": "assets/logo.png"
 }

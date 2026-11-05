@@ -22,11 +22,14 @@ can already see in Agobis.
 
 ## Connect
 
-- **Cursor:** install the plugin from the Cursor Directory, or add the server to
-  your MCP settings using this repo's [`mcp.json`](mcp.json).
-- **Grok:** enable Agobis from the plugin marketplace.
-- **Any other MCP client:** add a remote server with the URL
-  `https://mcp.agobis.com`.
+- **Claude:** add a custom connector with the URL `https://mcp.agobis.com`.
+- **Claude Code:** run `claude mcp add --transport http agobis https://mcp.agobis.com`.
+- **Cursor:** install the plugin, or add the server to your MCP settings using
+  this repo's [`mcp.json`](mcp.json).
+- **Grok:** ask a Grok Bot in a chat to add the connector, and give it the
+  server URL.
+- **Any other MCP client:** add a remote server with the URL above. The client
+  must support Client ID Metadata Documents.
 
 On first use your client opens an Agobis sign-in page and asks you to allow
 access. An organization owner can cut off every connector at once by turning
@@ -56,10 +59,16 @@ All tools are read-only.
 - "Show today's trips that are still in progress."
 - "Which vehicles have maintenance overdue?"
 
+## Data and privacy
+
+The connector signs in as you and sees only what your account can already see.
+It can't create, change or delete anything, and it doesn't return billing or
+payment details.
+
 ## Limits
 
 Up to 60 tool calls per minute and 1,000 per day per person, and 300 per minute
-per organization. Every call is logged for security.
+per organization. Every call is logged for security and kept for 90 days.
 
 ## Links
 
@@ -70,3 +79,8 @@ per organization. Every call is logged for security.
 
 Reviewers: a test account with sample data is available on request at
 support@agobis.com.
+
+## License
+
+MIT, see [LICENSE](LICENSE). The Agobis name and logo aren't covered by that
+license.

@@ -1,7 +1,14 @@
 {
   "mcpServers": {
     "agobis": {
-      "url": "https://mcp.agobis.com"
+      "url": "https://mcp.agobis.com",
+      "auth": {
+        "CLIENT_ID": "https://cursor.com/oauth/mcp-client.json",
+        "scopes": [
+          "agobis.read",
+          "offline_access"
+        ]
+      }
     }
   }
 }
