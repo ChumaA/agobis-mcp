@@ -5,5 +5,5 @@
   "author": { "name": "Agobis", "email": "support@agobis.com" },
   "homepage": "https://www.agobis.com",
   "keywords": ["fleet", "fleet-management", "logistics", "rides", "mcp"],
-  "logo": "https://www.agobis.com/brand/agobis-logo.png"
+  "logo": "assets/logo.png"
 }
