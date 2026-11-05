@@ -13,9 +13,10 @@ fleets, vehicles, last known locations, trips, team and maintenance in plain lan
 
 ## Requirements
 
-- An Agobis organization on the **Starter** plan or above.
+- An Agobis organization on any plan, including Free. The Free plan holds no
+  vehicles or trips, so most answers need a paid plan's data.
 - **Allow AI connectors** turned on by an owner under **Organization** settings
-  in the Agobis web app.
+  in the Agobis web app. It's off by default.
 
 Each person signs in as themselves, so the assistant sees only what that person
 can already see in Agobis.
