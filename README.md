@@ -2,7 +2,7 @@
 
 Connects AI assistants to [Agobis](https://www.agobis.com) fleet management over
 the [Model Context Protocol](https://modelcontextprotocol.io). Ask about your
-fleets, vehicles, live locations, trips, team and maintenance in plain language.
+fleets, vehicles, last known locations, trips, team and maintenance in plain language.
 
 | | |
 |---|---|
